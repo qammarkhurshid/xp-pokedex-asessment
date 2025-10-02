@@ -1,0 +1,32 @@
+{
+  "name": "pokedex-graphql-api",
+  "version": "1.0.0",
+  "description": "A GraphQL API for managing Pokémon collections with PokeAPI integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "graphql",
+    "pokemon",
+    "pokeapi",
+    "express",
+    "apollo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
